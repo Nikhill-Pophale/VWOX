@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="C:/Users/nikpo/IdeaProjects/VWO_App_Registration">
+        <classes>
+            <class name="org.example.Runner_Test.testRunner">
+                <methods>
+                    <include name="update_with_dot"/>
+<!--                    <include name="update_with_remove_dot"/>-->
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
