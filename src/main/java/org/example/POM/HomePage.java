@@ -20,7 +20,7 @@ public class HomePage {
     private By login_btn_OnDashBoardPage = By.xpath("//a[text()=\"Login\"]");
     private By login_btn_toLogin = By.xpath("//button[@type=\"submit\"]");
     private By view_profile_tab = By.xpath("//div[@class=\"view-profile-wrapper\"]/a");
-    private By resume_Headline = By.xpath("//span[@class=\"edit icon\"]");
+    private By resume_Headline = By.xpath("//*[@id=\"lazyResumeHead\"]/div/div/div[1]/span[2]");
     private By textspance_of_Headline = By.id("resumeHeadlineTxt");
     private By Save_Btn = By.xpath("//button[text()=\"Save\"]");
 

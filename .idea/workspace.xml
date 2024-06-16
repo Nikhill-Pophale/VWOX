@@ -5,13 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="425904bd-0242-4fa1-95a6-db3bc4e8fb15" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/DriverManager/DriverManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/DriverManager/DriverManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/DriverManager/DriverManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/POM/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/POM/HomePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/Runner_Test/testRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/Runner_Test/testRunner.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,7 +53,7 @@
       <recent name="org.example" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.testRunner.update_with_dot">
+  <component name="RunManager" selected="JUnit.testRunner.update_with_remove_dot">
     <configuration name="V" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.Basetest.V" />
       <module name="VWO_App_Registration" />
@@ -86,8 +83,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="testRunner.update_with_remove_dot" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="VWO_App_Registration" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.Runner_Test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example.Runner_Test" />
+      <option name="MAIN_CLASS_NAME" value="org.example.Runner_Test.testRunner" />
+      <option name="METHOD_NAME" value="update_with_remove_dot" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.testRunner.update_with_remove_dot" />
         <item itemvalue="JUnit.testRunner.update_with_dot" />
         <item itemvalue="Application.V" />
       </list>
