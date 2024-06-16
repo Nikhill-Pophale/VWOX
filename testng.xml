@@ -6,7 +6,7 @@
             <class name="org.example.Runner_Test.testRunner">
                 <methods>
                     <include name="update_with_dot"/>
-<!--                    <include name="update_with_remove_dot"/>-->
+                    <include name="update_with_remove_dot"/>
                 </methods>
             </class>
         </classes>
