@@ -2,7 +2,7 @@ package org.example.Runner_Test;
 
 import org.example.DriverManager.DriverManager;
 import org.example.POM.HomePage;
-import org.junit.Test;
+import org.testng.annotations.Test;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.NoSuchElementException;
