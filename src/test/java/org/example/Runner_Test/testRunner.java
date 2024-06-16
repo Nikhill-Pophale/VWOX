@@ -22,7 +22,7 @@ public class testRunner extends DriverManager {
         driverInitionalize();
         implicitWait(50);
         HomePage h = new HomePage(driver);
-
+        System.out.println("test started !!");
         h.getLoginBtnOn_dashboardPage().click();
         h.setUsername().sendKeys("nikhilpophale01@gmail.com");
         h.setPass().sendKeys("7878198nik");
@@ -31,6 +31,8 @@ public class testRunner extends DriverManager {
         h.resumeHeadlineBtn().click();
         h.Edit_textspace().sendKeys(".");
         h.getSaveBtn().click();
+        System.out.println(". is added !!");
+        System.out.println("test Ended !!");
         tearDown_driver();
     }
     @Test
@@ -38,7 +40,7 @@ public class testRunner extends DriverManager {
         driverInitionalize();
         implicitWait(50);
         HomePage h = new HomePage(driver);
-
+        System.out.println("test started !!");
         h.getLoginBtnOn_dashboardPage().click();
         h.setUsername().sendKeys("nikhilpophale01@gmail.com");
         h.setPass().sendKeys("7878198nik");
@@ -47,6 +49,8 @@ public class testRunner extends DriverManager {
         h.resumeHeadlineBtn().click();
         h.Edit_textspace().sendKeys(Keys.BACK_SPACE);
         h.getSaveBtn().click();
+        System.out.println(". is removed !!");
+        System.out.println("test Ended !!");
         tearDown_driver();
     }
 
