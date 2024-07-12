@@ -22,6 +22,9 @@ public class HomePage {
     private By view_profile_tab = By.xpath("//div[@class=\"view-profile-wrapper\"]/a");
     private By resume_Headline = By.xpath("//*[@id=\"lazyResumeHead\"]/div/div/div[1]/span[2]");
     private By textspance_of_Headline = By.id("resumeHeadlineTxt");
+    private By ProfileSummaryEditBtn = By.xpath("//*[@id=\"lazyProfileSummary\"]/div/div/div/div[1]/span[2]");
+
+    private By textspace_of_ProfileSummary = By.id("profileSummaryTxt");
     private By Save_Btn = By.xpath("//button[text()=\"Save\"]");
 
 
@@ -48,10 +51,17 @@ public class HomePage {
     public WebElement resumeHeadlineBtn() {
         return driver.findElement(resume_Headline);
     }
+    public WebElement ProfileSummary_EditBtn() {
+        return driver.findElement(ProfileSummaryEditBtn);
+    }
+    public WebElement ProfileSummary_textspace() {
+        return driver.findElement(textspace_of_ProfileSummary);
+    }
 
     public WebElement Edit_textspace() {
         return driver.findElement(textspance_of_Headline);
     }
+
 
     public WebElement getSaveBtn() {
         return driver.findElement(Save_Btn);
